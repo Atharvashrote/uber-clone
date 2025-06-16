@@ -1,4 +1,6 @@
-const UserModel = require('../models/user.model');
+
+const userModel = require('../models/user.model'); // adjust path if needed
+
 
 
 module.exports.createUser = async ({
